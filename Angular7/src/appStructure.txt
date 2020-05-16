@@ -1,0 +1,24 @@
+src
+    app
+        orders
+            orders.component.ts|.html|.css
+                order
+                    order.component.ts|.html|.css
+                order-items
+                    order-items.component.ts|.html|.css
+
+                shared
+                    customer.model.ts
+                    customer.services.ts
+                    item.model.ts
+                    item.services.ts
+                    order-item.model.ts
+                    order.model.ts
+                    order.services.ts
+
+        app.module.ts
+
+    environments
+        environment.ts (savedAPI urls)
+
+    index.html(cdn path for bootstrap and font awesome)
